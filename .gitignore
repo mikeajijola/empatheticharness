@@ -1,0 +1,29 @@
+node_modules
+.eve/
+.vercel/
+.env*
+!.env.example
+.eve-output/
+.vercel
+
+.output/
+
+.reports/
+
+# Generated run artifacts are archived in private Vercel Blob.
+evidence/*
+!evidence/README.md
+*.log
+
+# Local imports, reports, and credentials
+private/
+imports/
+.data/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.zip
+*.pem
+*.key

@@ -1,0 +1,48 @@
+{
+  "name": "empatheticharness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eve dev",
+    "build": "eve build",
+    "start": "eve start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "eval": "eve eval",
+    "deploy": "eve deploy",
+    "report": "node --import tsx scripts/report.ts",
+    "report:import": "node --import tsx scripts/import-report.ts",
+    "artifacts:archive": "node --import tsx scripts/archive-artifacts.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeajijola/empatheticharness.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mikeajijola/empatheticharness/issues"
+  },
+  "homepage": "https://github.com/mikeajijola/empatheticharness#readme",
+  "dependencies": {
+    "@vercel/blob": "^2.8.0",
+    "@vercel/sandbox": "^3.2.1",
+    "ai": "^7.0.82",
+    "eve": "^0.52.2",
+    "pdfkit": "^0.20.2",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "@types/pdfkit": "^0.17.6",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  }
+}

@@ -1,0 +1,11 @@
+evidence/
+.reports/
+.env*
+!.env.example
+.git/
+
+private/
+imports/
+.data/
+*.pem
+*.key
